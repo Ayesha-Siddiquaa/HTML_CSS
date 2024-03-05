@@ -1,4 +1,4 @@
-# HTML_CSS
+# PART-A :
 
 # CozyCafe-website
    This platform was created as a learning process to practice HTML and CSS while building a website for a cozy cafe promoting delicious beverages and snacks in a warm and inviting atmosphere.
@@ -25,6 +25,7 @@ To run the website locally, follow these steps:
 - HTML
 - CSS
 
+# PART-B :
 # Butterfly World Website
 
      Welcome to Butterfly World! This is a simple webpage providing information about various beautiful butterfly species.
