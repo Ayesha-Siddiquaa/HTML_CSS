@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butterfly World</title>
+    <style>
+        * {
+            font-family: cursive;
+            color: black;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, button {
+            background-color: #f7a4ed;
+            padding: 10px;
+            text-align: center;
+        }
+
+        button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav {
+            background-color: #9cea9d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .col {
+            background-color: #73e2f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        #imp {
+            font-weight: bold;
+        }
+
+        /* Removed #butterflies selector, since IDs should be unique */
+        .butterflies img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Butterfly World</h1>
+        <button>Log In</button>
+    </header>
+    <nav>
+        <a href="#">Home</a> ||
+        <a href="#">About</a> ||
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="col">
+            <h2>Monarch Butterfly</h2>
+            <!-- Changed id="butterflies" to class="butterflies" -->
+            <div class="butterflies">
+                
+                <p>
+                    The Monarch Butterfly, scientifically named Danaus plexippus, is renowned for its vibrant orange and black wings, symbolizing beauty and resilience. These butterflies embark on an extraordinary migratory journey from North America to overwintering sites in Mexico or California, showcasing remarkable navigational skills.</p>
+            </div>
+        </div>
+        <div class="col">
+            <h2>Swallowtail Butterfly</h2>
+            <!-- Changed id="butterflies" to class="butterflies" -->
+            <div class="butterflies">
+                
+                <p>The Glasswing Butterfly, scientifically named Greta oto, is known for its transparent wings, found in Central and South America. These delicate creatures excel in camouflage, seamlessly blending into their surroundings. </p>
+            </div>
+        </div>
+        <div class="col">
+            <h2>Blue Morpho Butterfly</h2>
+            <!-- Changed id="butterflies" to class="butterflies" -->
+            <div class="butterflies">
+                
+                <p>The Blue Monarch butterfly, or Morpho menelaus, is known for its stunning iridescent blue wings found in Central and South American rainforests. Unlike its cousin, the Monarch, it doesn't migrate but gracefully flutters among lush vegetation. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto;
+    flex: 1 0 33%; /* Make the image occupy one-third of the width of the header */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 2 0 67%; /* Make the heading occupy two-thirds of the width of the header */
+}
+
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #ff0;
+}
+
+footer {
+    background-color: #6c757d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-label {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#toggleMenu {
+    display: none;
+}
+
+#toggleMenu:checked ~ #menuList {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul li img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+ul li strong {
+    flex: 0 0 auto;
+    min-width: 120px;
+}
+
+ul li p {
+    flex: 1;
+    margin: 0;
+}
